@@ -23,56 +23,64 @@ let medicamentos = [
       titulo: 'Tylenol Paracetamol 500mg',
       img: '/images/tylenol.webp',
       imgAlt: 'Tylenol',
-      valor: 'R$ 9,99'
+      valor: 'R$ 9,99',
+      favorite: false
     },
     {
       id: 1,
       titulo: 'Cetaphil Hidratante Corporal',
       img: '/images/cetaphil.webp',
       imgAlt: 'Cetaphil Hidratante',
-      valor: 'R$ 114,90'
+      valor: 'R$ 114,90',
+      favorite: false
     },
     {
       id: 2,
       titulo: 'Desodorante Dove Antitranspirante',
       img: '/images/desodorante.webp',
       imgAlt: 'Desodorante Dove',
-      valor: 'R$ 23,99'
+      valor: 'R$ 23,99',
+      favorite: false
     },
     {
       id: 3,
       titulo: 'Hidratante Corporal Neutrogena',
       img: '/images/hidratante.webp',
       imgAlt: 'Hidratante Neutrogena',
-      valor: 'R$ 25,99'
+      valor: 'R$ 25,99',
+      favorite: false
     },
     {
       id: 4,
       titulo: 'Protetor Facial Australian Gold',
       img: '/images/protetor.webp',
       imgAlt: 'Protetor Facial Australian Gold',
-      valor: 'R$ 29,99'
+      valor: 'R$ 29,99',
+      favorite: false
     },
     {
       id: 5,
       titulo: 'Desodorante Rexona Man Clinical',
       img: '/images/rexona.webp',
       imgAlt: 'Desodorante Rexona Clinical',
-      valor: 'R$ 22,99'
+      valor: 'R$ 22,99',
+      favorite: false
     },
     {
       id: 6,
       titulo: 'Colírio Líquido Liris 5mg/Ml',
       img: '/images/colirio.webp',
       imgAlt: 'Colírio Liris',
-      valor: '>R$ 26,99'
+      valor: 'R$ 26,99',
+      favorite: false
     },
     {
       id: 7,
       titulo: 'Sabonete Líquido Granado Glicerinado',
       img: '/images/sabonete.webp',
       imgAlt: 'Sabonete Líquido Granado',
-      valor: 'R$ 27,90'
+      valor: 'R$ 27,90',
+      favorite: false
     }
   ]
 // Criação:
