@@ -29,7 +29,7 @@
 }
 
 header, .navbar {
-    background-color: #f7f5f5;
+    background-color: #f2f2f2;
     padding: 0px 100px;
 }
 
@@ -114,9 +114,10 @@ body {
     background-color:#344bf0;
     border-color:#344bf0;
     color: white;
-    margin-top: 20px;
     text-transform: uppercase;
     letter-spacing: 0.5px;
+    justify-content: center;
+    margin: 8px;
 }
 
 .btn:hover {
