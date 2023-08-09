@@ -16,6 +16,7 @@
       <!--JS-->
       <script type="module" src="/js/main.js" defer></script>
       <script type="module" src="/js/form.js" defer></script>
+      <script type="module" src="/js/createOptions.js" defer></script>
 
   </head>
   <body>
@@ -62,12 +63,9 @@
                         <input type="email" class="form-control" id="email" required placeholder="Insira seu e-mail aqui">
                     </div>
                     <div class="mb-3">
-                        <select class="form-select" aria-label="assunto" required>
+                        <select class="form-select" aria-label="assunto" required id="assunto">
                             <option selected>Selecione o assunto:</option>
-                            <option value="1">Manipulação</option>
-                            <option value="2">Drogaria</option>
-                            <option value="3">Fornecedor</option>
-                            <option value="4">Vagas de Emprego</option>
+                            
                         </select>
                     </div>
                     <div class="form-floating mb-3">
