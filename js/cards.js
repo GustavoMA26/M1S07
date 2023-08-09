@@ -20,5 +20,11 @@ function fillCards (produtos) {
         precoProduto.innerText = produtos[id].valor;
         imagemProduto.setAttribute('src', produtos[id].img);
         imagemProduto.setAttribute('alt', produtos[id].imgAlt);
+
+        botaoAdicionar.addEventListener('click', () => {
+            console.log(produtos[id].titulo);
+            console.log(produtos);
+            alert(`${produtos[id].titulo} foi adicionado ao carrinho!`);
+            })
     }
 }
